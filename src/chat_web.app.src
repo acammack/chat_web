@@ -1,0 +1,8 @@
+{application, chat_web, [
+	{description, ""},
+	{vsn, "rolling"},
+	{modules, []},
+	{registered, []},
+	{applications, [kernel,stdlib,chat_core,cowboy,jsx,runtime_tools,wx,observer]},
+	{mod, {chat_web_app, []}}
+]}.

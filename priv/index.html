@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Extended Erlang Examples - A Webchat</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link href="/assets/chat_web.css" rel="stylesheet" media="screen">
+  </head>
+
+  <body>
+    <div id="main-window">
+      <div id="message-window">
+        <form role="form" id="creds">
+          <br><br><br>
+          <div class="form-group">
+            <label for="nick">Nickname</label>
+            <input autofocus required type="text" class="form-control" id="nick" name="nick" placeholder="Nickname">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input required type="password" class="form-control" id="password" name="password" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-primary">Connect</button>
+        </form>
+      </div>
+    </div>
+    <div id="text-window">
+      <textarea rows=2 id="text-input"></textarea>
+      <div id="room-list">
+        <span id="current"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="rooms"></span>
+      </div>
+    </div>
+
+    <script src="/assets/jquery-2.1.4.min.js"></script>
+    <script src="/assets/chat_web.js"></script>
+  </body>
+</html>

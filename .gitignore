@@ -1,0 +1,9 @@
+.chat_web.plt
+.erlang.mk
+_rel
+chat_web.d
+deps
+ebin
+logs
+relx
+test/*.beam

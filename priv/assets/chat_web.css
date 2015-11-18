@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div#main-window {
+  height: 100%;
+  margin: 0 auto -5em;
+}
+
+div#message-window {
+  height: calc(100% - 5em);
+  overflow-y: scroll;
+}
+
+.message {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.2em;
+  font-family: monospace;
+  color: black;
+}
+
+.message.bg-channel {
+  color: mediumseagreen;
+}
+
+.message.info {
+  color: gray;
+}
+
+.message.info.error {
+  color: lightcoral;
+}
+
+#text-window {
+  height: 5em;
+}
+
+#text-input {
+  width: 95%;
+  font-family: monospace;
+}
+
+#room-list {
+  font-family: monospace;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.2em;
+}
