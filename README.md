@@ -38,7 +38,7 @@ Anything other than these commands will be sent to most recently joined room.
 TODO
 ----
 
-* Add tests with [gun](https://www.github.com/ninenines/gun) or possibly
+* Add tests with [gun](https://github.com/ninenines/gun) or possibly
   [PhantomJS](http://phantomjs.org)
 * Write a guide explaining the structure and rationale behind this application
   and its dependencies.
