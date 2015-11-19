@@ -10,9 +10,9 @@ Erlang systems.
 Running
 -------
 
-Building this project requires `git` to be in your `PATH` and either GNU make
-or rebar and relx. By default, the application runs on port 8080. Change
-`src/chat_web_app.erl` if a different port is desired.
+In addition to Erlang 18, building this project requires `git` to be in your
+`PATH` and either GNU make or rebar and relx. By default, the application runs
+on port 8080. Change `src/chat_web_app.erl` if a different port is desired.
 
 To build and start with make, run `make run`. To build and start with rebar,
 run `rebar get-deps; rebar compile; relx -c relx.config;
